@@ -1,8 +1,10 @@
+import Post from './component/Post';
+
 function App() {
   return (
-    <div>
-      <h1>Hello, World!</h1>
-    </div>
+    <main>
+      <Post author="Norbi" body="Lorem Ipsum"/>
+    </main>
   );
 }
 
